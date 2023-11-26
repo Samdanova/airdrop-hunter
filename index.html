@@ -15,26 +15,33 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <header>
+            <nav class="navbar bg-light">
+                <div class="container">
+                  <a class="navbar-brand" href="#">
+                    <img src="assets/logo.png" alt="Bootstrap" width="30" height="24">
+                  </a>
+                </div>
+              </nav>
+        </header >
         <div class="container">
-            <header class=""></header >
             <main>
                 <div class="card mb-3">
                     <div class="row g-0">
-                        <div class="col-md-8">
+                        <div class="col-md-6">
                             <div class="card-body">
                                 <p class="card-text">
                                     <small class="text-muted">Today: 15:24</small>
                                 </p>
                                 <h5 class="card-title">Starknet is a decentralized Validity-Rollup often referred</h5>
-                                <p class="card-tex collapse">Starknet is a decentralized Validity-Rollup (often
+                                <p class="card-text text-muted mt-4">Starknet is a decentralized Validity-Rollup (often
                                     referred to as ZK-Rollup). It operates as a Layer 2 network over Ethereum.
                                     Starknet is a decentralized Validity-Rollup Starknet is a decentralized
                                     Validity-Rollup (often referred to as ZK-Rollup). It operates as a Layer 2
                                     network over Ethereum. Starknet is a decentralized Validity-Rollup</p>
-
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <img src="assets/img_news.png" class="img-fluid rounded-start" alt="img_news">
                         </div>
                     </div>
@@ -42,9 +49,9 @@
                 <div class=" menu card">
                     <div class="row">
                         <div class="menu__icons col-12">
-                           <button class="menu__icons_prev">
-                           <img src="assets/arrow_left.png" alt="">
-                           </button>
+                            <button class="menu__icons_prev">
+                                <img src="assets/arrow_left.png" alt="">
+                            </button>
                             <div class="icon">
                                 <a href="#"><img src="assets/logoArrow.png" alt=""></a>
                             </div>
@@ -70,7 +77,7 @@
                                 <a href="#"><img src="assets/logoPerple.png" alt=""></a>
                             </div>
                             <div class="icon">
-                                <a href="#"><img src="assets/logoSp.png" alt=""></a>
+                                <a href="#starkNet"><img src="assets/logoSp.png" alt=""></a>
                             </div>
                             <div class="icon">
                                 <a href="#"><img src="assets/logoSq.png" alt=""></a>
@@ -80,61 +87,315 @@
                             </div>
                             <button class="menu__icons_prev">
                                 <img src="assets/arrow_right.png" alt="">
-                                </button>
+                            </button>
                         </div>
                     </div>
                 </div>
-                <div class="row row-cols-3">
-                    <article class="col">
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
+                <div class="row row-cols-3 mt-4 cards">
+                    <article class="col " id="starkNet">
+                        <div class="card card__company">
                             <div class="card-body">
-                                <h5 class="card-title">StarkNet</h5>
-                                <p class="card-text">Starknet is a decentralized Validity-Rollup (often referred
-                                    to as ZK-Rollup). It operates as a Layer 2 network over Ethereum.</p>
-                                    <table class="justify-content-center table">
-                                        <thead>
-                                          <tr>
-                                            <th scope="col">Tariff</th>
-                                            <th scope="col">Cost,$</th>
-                                          </tr>
-                                        </thead>
-                                        <tbody>
-                                          <tr>
-                                            <th scope="row table__row">5 accounts</th>
+                                <div class="card-body__header d-flex align-items-center">
+                                    <img src="assets/logoSp.png" alt="logo">
+                                    <h5 class="card-title flex-grow-1 ms-2">StarkNet</h5>
+                                </div>
+                                <p class="card-text text-muted">Starknet is a decentralized Validity-Rollup
+                                    (often referred to as ZK-Rollup). It operates as a Layer 2 network over
+                                    Ethereum.</p>
+                                    <div class="mb-2 mt-4">
+                                <a href="#">Read more</a>
+                            </div>
+                                <div class="card card__details">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-12  mb-2">
+                                                On artificial AI:
+                                            </div>
+                                            <div class="col-6">
+                                                expected airdrop
+                                                <br>
+                                                $500 - $5 000</div>
+                                            <div class="col-6">
+                                                probability
+                                                <br>65%</div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <table class="table">
+                                    <thead class=" table table__thead">
+                                        <tr class=" table table__tr">
+                                            <th scope="col" class="table__row text-muted">Tariff</th>
+                                            <th scope="col " class="table__row text-muted">Cost,$</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="table table__rows">
+                                            <th scope="row table__row" class="table__row">5 accounts</th>
                                             <td>150</td>
-                                            <td>Detail</td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row">10 accounts</th>
+                                            <td class="table__detail">Detail</td>
+                                        </tr>
+                                        <tr class="table table__rows">
+                                            <th scope="row" class="table__row">10 accounts</th>
                                             <td>300</td>
-                                            <td>Detail</td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row">15 accounts</th>
+                                            <td class="table__detail">Detail</td>
+                                        </tr>
+                                        <tr class="table table__rows">
+                                            <th scope="row" class="table__row">15 accounts</th>
                                             <td>450</td>
-                                            <td>Detail</td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row">20 accounts</th>
+                                            <td class="table__detail">Detail</td>
+                                        </tr>
+                                        <tr class="table table__rows">
+                                            <th scope="row" class="table__row">20 accounts</th>
                                             <td>600</td>
-                                            <td>Detail</td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row">25 accounts</th>
+                                            <td class="table__detail">Detail</td>
+                                        </tr>
+                                        <tr class="table table__rows">
+                                            <th scope="row" class="table__row">25 accounts</th>
                                             <td>750</td>
-                                            <td>Detail</td>
-                                          </tr>
-                                          <tr>
-                                            <th scope="row">30 accounts</th>
+                                            <td class="table__detail">Detail</td>
+                                        </tr>
+                                        <tr class="table table__rows">
+                                            <th scope="row" class="table__row">30 accounts</th>
                                             <td>900</td>
-                                            <td>Detail</td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
-                                <a href="#" class="btn btn-primary justify-content-center">Buy</a>
+                                            <td class="table__detail">Detail</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <button href="#" type="button" class="btn btn-primary btn-block card__button">Buy</button>
                                 <p class="card-text">
-                                    <small class="text-muted">Chose a suitable tarif and click the button</small>
+                                    <small class="text-muted  ">Chose a suitable tarif and click the button</small>
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col ">
+                        <div class="card card__company">
+                            <div class="card-body">
+                                <div class="card-body__header d-flex align-items-center">
+                                    <img src="assets/logoSp.png" alt="logo">
+                                    <h5 class="card-title flex-grow-1 ms-2">StarkNet</h5>
+                                </div>
+                                <p class="card-text text-muted">Starknet is a decentralized Validity-Rollup
+                                    (often referred to as ZK-Rollup). It operates as a Layer 2 network over
+                                    Ethereum.</p>
+                                    <div class="mb-2 mt-4">
+                                <a href="#">Read more</a>
+                            </div>
+                                <div class="card card__details">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-12  mb-2">
+                                                On artificial AI:
+                                            </div>
+                                            <div class="col-6">
+                                                expected airdrop
+                                                <br>
+                                                $500 - $5 000</div>
+                                            <div class="col-6">
+                                                probability
+                                                <br>65%</div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <table class="table">
+                                    <thead class=" table table__thead">
+                                        <tr class=" table table__tr">
+                                            <th scope="col" class="table__row text-muted">Tariff</th>
+                                            <th scope="col " class="table__row text-muted">Cost,$</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="table table__rows">
+                                            <th scope="row table__row" class="table__row">5 accounts</th>
+                                            <td>150</td>
+                                            <td class="table__detail">Detail</td>
+                                        </tr>
+                                        <tr class="table table__rows">
+                                            <th scope="row" class="table__row">10 accounts</th>
+                                            <td>300</td>
+                                            <td class="table__detail">Detail</td>
+                                        </tr>
+                                        <tr class="table table__rows">
+                                            <th scope="row" class="table__row">15 accounts</th>
+                                            <td>450</td>
+                                            <td class="table__detail">Detail</td>
+                                        </tr>
+                                        <tr class="table table__rows">
+                                            <th scope="row" class="table__row">20 accounts</th>
+                                            <td>600</td>
+                                            <td class="table__detail">Detail</td>
+                                        </tr>
+                                        <tr class="table table__rows">
+                                            <th scope="row" class="table__row">25 accounts</th>
+                                            <td>750</td>
+                                            <td class="table__detail">Detail</td>
+                                        </tr>
+                                        <tr class="table table__rows">
+                                            <th scope="row" class="table__row">30 accounts</th>
+                                            <td>900</td>
+                                            <td class="table__detail">Detail</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <button href="#" type="button" class="btn btn-primary btn-block card__button">Buy</button>
+                                <p class="card-text">
+                                    <small class="text-muted  ">Chose a suitable tarif and click the button</small>
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col ">
+                        <div class="card card__company">
+                            <div class="card-body">
+                                <div class="card-body__header d-flex align-items-center">
+                                    <img src="assets/logoSp.png" alt="logo">
+                                    <h5 class="card-title flex-grow-1 ms-2">StarkNet</h5>
+                                </div>
+                                <p class="card-text text-muted">Starknet is a decentralized Validity-Rollup
+                                    (often referred to as ZK-Rollup). It operates as a Layer 2 network over
+                                    Ethereum.</p>
+                                    <div class="mb-2 mt-4">
+                                <a href="#">Read more</a>
+                            </div>
+                                <div class="card card__details">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-12  mb-2">
+                                                On artificial AI:
+                                            </div>
+                                            <div class="col-6">
+                                                expected airdrop
+                                                <br>
+                                                $500 - $5 000</div>
+                                            <div class="col-6">
+                                                probability
+                                                <br>65%</div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <table class="table">
+                                    <thead class=" table table__thead">
+                                        <tr class=" table table__tr">
+                                            <th scope="col" class="table__row text-muted">Tariff</th>
+                                            <th scope="col " class="table__row text-muted">Cost,$</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="table table__rows">
+                                            <th scope="row table__row" class="table__row">5 accounts</th>
+                                            <td>150</td>
+                                            <td class="table__detail">Detail</td>
+                                        </tr>
+                                        <tr class="table table__rows">
+                                            <th scope="row" class="table__row">10 accounts</th>
+                                            <td>300</td>
+                                            <td class="table__detail">Detail</td>
+                                        </tr>
+                                        <tr class="table table__rows">
+                                            <th scope="row" class="table__row">15 accounts</th>
+                                            <td>450</td>
+                                            <td class="table__detail">Detail</td>
+                                        </tr>
+                                        <tr class="table table__rows">
+                                            <th scope="row" class="table__row">20 accounts</th>
+                                            <td>600</td>
+                                            <td class="table__detail">Detail</td>
+                                        </tr>
+                                        <tr class="table table__rows">
+                                            <th scope="row" class="table__row">25 accounts</th>
+                                            <td>750</td>
+                                            <td class="table__detail">Detail</td>
+                                        </tr>
+                                        <tr class="table table__rows">
+                                            <th scope="row" class="table__row">30 accounts</th>
+                                            <td>900</td>
+                                            <td class="table__detail">Detail</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <button href="#" type="button" class="btn btn-primary btn-block card__button">Buy</button>
+                                <p class="card-text">
+                                    <small class="text-muted  ">Chose a suitable tarif and click the button</small>
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col ">
+                        <div class="card card__company">
+                            <div class="card-body">
+                                <div class="card-body__header d-flex align-items-center">
+                                    <img src="assets/logoSp.png" alt="logo">
+                                    <h5 class="card-title flex-grow-1 ms-2">StarkNet</h5>
+                                </div>
+                                <p class="card-text text-muted">Starknet is a decentralized Validity-Rollup
+                                    (often referred to as ZK-Rollup). It operates as a Layer 2 network over
+                                    Ethereum.</p>
+                                    <div class="mb-2 mt-4">
+                                <a href="#">Read more</a>
+                            </div>
+                                <div class="card card__details">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-12  mb-2">
+                                                On artificial AI:
+                                            </div>
+                                            <div class="col-6">
+                                                expected airdrop
+                                                <br>
+                                                $500 - $5 000</div>
+                                            <div class="col-6">
+                                                probability
+                                                <br>65%</div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <table class="table">
+                                    <thead class=" table table__thead">
+                                        <tr class=" table table__tr">
+                                            <th scope="col" class="table__row text-muted">Tariff</th>
+                                            <th scope="col " class="table__row text-muted">Cost,$</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="table table__rows">
+                                            <th scope="row table__row" class="table__row">5 accounts</th>
+                                            <td>150</td>
+                                            <td class="table__detail">Detail</td>
+                                        </tr>
+                                        <tr class="table table__rows">
+                                            <th scope="row" class="table__row">10 accounts</th>
+                                            <td>300</td>
+                                            <td class="table__detail">Detail</td>
+                                        </tr>
+                                        <tr class="table table__rows">
+                                            <th scope="row" class="table__row">15 accounts</th>
+                                            <td>450</td>
+                                            <td class="table__detail">Detail</td>
+                                        </tr>
+                                        <tr class="table table__rows">
+                                            <th scope="row" class="table__row">20 accounts</th>
+                                            <td>600</td>
+                                            <td class="table__detail">Detail</td>
+                                        </tr>
+                                        <tr class="table table__rows">
+                                            <th scope="row" class="table__row">25 accounts</th>
+                                            <td>750</td>
+                                            <td class="table__detail">Detail</td>
+                                        </tr>
+                                        <tr class="table table__rows">
+                                            <th scope="row" class="table__row">30 accounts</th>
+                                            <td>900</td>
+                                            <td class="table__detail">Detail</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <button href="#" type="button" class="btn btn-primary btn-block card__button">Buy</button>
+                                <p class="card-text">
+                                    <small class="text-muted  ">Chose a suitable tarif and click the button</small>
                                 </p>
                             </div>
                         </div>

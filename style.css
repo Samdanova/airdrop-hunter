@@ -1,7 +1,53 @@
+body{
+    background-color: #F3F3F3;
+}
 .menu__icons{
     display: flex;
 }
 
 .table__row{
     font-weight: normal;
+    text-decoration: none;
+}
+
+.table{
+    border-style:hidden;
+}
+
+.table__rows{
+    background-color: #F8F9FC;
+    border-radius: 5px;
+
+}
+.table__detail{
+    color:#3D8AFF
+}
+.card-body__header{
+margin-bottom: 2%;
+}
+
+.card__company{
+    border-radius: 10px; 
+}
+.card__button{
+    background-color: #E0E3F5;
+    color: #23ACDE;
+    border-color: #23ACDE;
+    width: 100%;
+    height: 55px;
+}
+
+.card__button:hover{
+    background-color: #23ACDE;
+    color: white;
+    height: 55px;
+}
+
+.card__details{
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #3D8AFF;
 }
