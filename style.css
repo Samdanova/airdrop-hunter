@@ -1,6 +1,8 @@
 body{
     background-color: #F3F3F3;
+    font-size: 1rem;
 }
+
 .menu__icons{
     display: flex;
 }
@@ -67,8 +69,9 @@ a{
 .corouselMenu{
 display: flex;
 justify-content: center;
-margin: 1% 2%;
+margin: 1% 1%;
 }
+
 .navigationSlider{
     display: flex;
     justify-content: center;
@@ -76,17 +79,21 @@ margin: 1% 2%;
 }
 
 .navigation{
+
     position: relative;
-    margin-left: 5rem;
+    display: content-box;
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
 } 
  .menuButtonL{
     position: absolute;
-    left: -5%;
+    left: -2rem;
 }
 
 .menuButtonR{
     position: absolute;
-    right: -5%;
+    right:  -2rem;
 }
 .h__accordion{
     font-size: 1.2rem;
@@ -98,4 +105,10 @@ margin: 1% 2%;
     display: inline-flex;
     padding: 5px;
 }
+.nav-right{
+    border:2px solid #E9E9E9;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 5px;
 
+}
