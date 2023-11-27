@@ -6,7 +6,9 @@
         <meta
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <title>AIRDROP Hunter</title>
+        <title>AIRDROP HUNTER</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
             rel="stylesheet"
@@ -18,83 +20,116 @@
         <header>
             <nav class="navbar bg-light">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#">
+                  <a class="navbar-brand" href="#MetaMask">
                     <img src="assets/logo.png" alt="Bootstrap" width="30" height="24">
                   </a>
-                  <a class="navbar-brand" href="#">Deposit
+                  <a class="navbar-brand" href="#MetaMask">Deposit
                   </a>
-                  <a class="navbar-brand" href="#">Connect Wallet
+                  <a class="navbar-brand" href="#MetaMask">Connect Wallet
                 </a>
                 </div>
               </nav>
         </header >
         <div class="container">
             <main>
-                <div class="card mb-3">
-                    <div class="row g-0">
-                        <div class="col-md-6">
-                            <div class="card-body">
-                                <p class="card-text">
-                                    <small class="text-muted">Today: 15:24</small>
-                                </p>
-                                <h5 class="card-title">Starknet is a decentralized Validity-Rollup often referred</h5>
-                                <p class="card-text text-muted mt-4">Starknet is a decentralized Validity-Rollup (often
-                                    referred to as ZK-Rollup). It operates as a Layer 2 network over Ethereum.
-                                    Starknet is a decentralized Validity-Rollup Starknet is a decentralized
-                                    Validity-Rollup (often referred to as ZK-Rollup). It operates as a Layer 2
-                                    network over Ethereum. Starknet is a decentralized Validity-Rollup</p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <img src="assets/img_news.png" class="img-fluid rounded-start" alt="img_news">
+               
+                <div class="accordion mb-3" id="news">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header  " id="headingOne">
+                        <div class="h2-header">
+                         <img  type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" src="assets/arrow-show.svg" alt="">
+                        <div class="h__accordion m-auto">
+                            Starknet is a decentralized Validity-Rollup often referred
                         </div>
                     </div>
-                </div>
-                <div class=" menu card">
-                    <div class="row">
-                        <div class="menu__icons col-12">
-                            <button class="menu__icons_prev">
-                                <img src="assets/arrow_left.png" alt="">
-                            </button>
-                            <div class="icon">
-                                <a href="#"><img src="assets/logoArrow.png" alt=""></a>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#news">
+                        <div class="accordion-body">
+                            <div class="card ">
+                                <div class="row g-0">
+                                    <div class="col-md-6">
+                                        <div class="card-body">
+                                            <p class="card-text">
+                                                <small class="text-muted">Today: 15:24</small>
+                                            </p>
+                                            <h5 class="card-title">Starknet is a decentralized Validity-Rollup often referred</h5>
+                                            <p class="card-text text-muted mt-4">Starknet is a decentralized Validity-Rollup (often
+                                                referred to as ZK-Rollup). It operates as a Layer 2 network over Ethereum.
+                                                Starknet is a decentralized Validity-Rollup Starknet is a decentralized
+                                                Validity-Rollup (often referred to as ZK-Rollup). It operates as a Layer 2
+                                                network over Ethereum. Starknet is a decentralized Validity-Rollup</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="assets/img_news.png" class="img-fluid rounded-start" alt="img_news">
+                                    </div>
+                                </div>
                             </div>
-                            <div class="icon">
-                                <a href="#"><img src="assets/logoB.png" alt=""></a>
-                            </div>
-                            <div class="icon">
-                                <a href="#"><img src="assets/logoCircle.png" alt=""></a>
-                            </div>
-                            <div class="icon">
-                                <a href="#"><img src="assets/logoFox.png" alt=""></a>
-                            </div>
-                            <div class="icon">
-                                <a href="#"><img src="assets/logoList.png" alt=""></a>
-                            </div>
-                            <div class="icon">
-                                <a href="#"><img src="assets/logoN.png" alt=""></a>
-                            </div>
-                            <div class="icon">
-                                <a href="#"><img src="assets/logoO.png" alt=""></a>
-                            </div>
-                            <div class="icon">
-                                <a href="#"><img src="assets/logoPerple.png" alt=""></a>
-                            </div>
-                            <div class="icon">
-                                <a href="#starkNet"><img src="assets/logoSp.png" alt=""></a>
-                            </div>
-                            <div class="icon">
-                                <a href="#"><img src="assets/logoSq.png" alt=""></a>
-                            </div>
-                            <div class="icon">
-                                <a href="#"><img src="assets/logoV.png" alt=""></a>
-                            </div>
-                            <button class="menu__icons_prev">
-                                <img src="assets/arrow_right.png" alt="">
-                            </button>
                         </div>
+                      </div>
                     </div>
-                </div>
+                  </div>
+                <div class="card navigationSlider">
+<div id="carouselMenu" class="carousel slide corouselMenu" >
+    <div class="carousel-inner navigation">
+      <div class="carousel-item active carousel-item-active">
+        <a class="navigation_item" href="#MetaMask"><img src="assets/logoB.png" alt=""></a>
+        <a class="navigation_item" href="#MetaMask"><img src="assets/logoArrow.png" alt=""></a>
+        <a  class="navigation_item" href="#MetaMask"><img src="assets/logoCircle.png" alt=""></a>
+        <a  class="navigation_item" href="#MetaMask"><img src="assets/logoFox.png" alt=""></a>
+        <a  class="navigation_item" href="#MetaMask"><img src="assets/logoList.png" alt=""></a>
+        <a  class="navigation_item" href="#MetaMask"><img src="assets/logoN.png" alt=""></a>
+        <a   class="navigation_item" href="#LayerZero"><img src="assets/logoO.png" alt=""></a>
+        <a  class="navigation_item" href="#Polygon"><img src="assets/logoPerple.png" alt=""></a>
+        <a  class="navigation_item" href="#starkNet"><img src="assets/logoSp.png" alt=""></a>
+        <a  class="navigation_item" href="#MetaMask"><img src="assets/logoSq.png" alt=""></a>
+        <a  class="navigation_item" href="#MetaMask"><img src="assets/logoV.png" alt=""></a>
+        <a class="navigation_item" href="#MetaMask"><img src="assets/logoB.png" alt=""></a>
+        <a class="navigation_item" href="#MetaMask"><img src="assets/logoArrow.png" alt=""></a>
+        <a  class="navigation_item" href="#MetaMask"><img src="assets/logoCircle.png" alt=""></a>
+        <a  class="navigation_item" href="#MetaMask"><img src="assets/logoFox.png" alt=""></a>
+        <a  class="navigation_item" href="#MetaMask"><img src="assets/logoList.png" alt=""></a>
+        <a  class="navigation_item" href="#Polygon"><img src="assets/logoPerple.png" alt=""></a>
+        <a  class="navigation_item" href="#starkNet"><img src="assets/logoSp.png" alt=""></a>
+        <a  class="navigation_item" href="#MetaMask"><img src="assets/logoSq.png" alt=""></a>
+        <a  class="navigation_item" href="#MetaMask"><img src="assets/logoV.png" alt=""></a>
+      </div>
+      <div class="carousel-item carousel-item-passive" >
+        <a class="navigation_item" href="#MetaMask"><img src="assets/logoB.png" alt=""></a>
+        <a class="navigation_item"  href="#MetaMask"><img src="assets/logoArrow.png" alt=""></a>
+        <a  class="navigation_item" href="#MetaMask"><img src="assets/logoCircle.png" alt=""></a>
+        <a  class="navigation_item" href="#MetaMask"><img src="assets/logoFox.png" alt=""></a>
+        <a  class="navigation_item" href="#MetaMask"><img src="assets/logoList.png" alt=""></a>
+        <a  class="navigation_item" href="#MetaMask"><img src="assets/logoN.png" alt=""></a>
+        <a  class="navigation_item" href="#LayerZero"><img src="assets/logoO.png" alt=""></a>
+        <a  class="navigation_item" href="#MetaMask"><img src="assets/logoPerple.png" alt=""></a>
+        <a  class="navigation_item" href="#starkNet"><img src="assets/logoSp.png" alt=""></a>
+        <a  class="navigation_item" href="#MetaMask"><img src="assets/logoSq.png" alt=""></a>
+        <a  class="navigation_item" href="#MetaMask"><img src="assets/logoV.png" alt=""></a>
+        <a class="navigation_item" href="#MetaMask"><img src="assets/logoB.png" alt=""></a>
+        <a  class="navigation_item" href="#MetaMask"><img src="assets/logoFox.png" alt=""></a>
+        <a  class="navigation_item" href="#MetaMask"><img src="assets/logoList.png" alt=""></a>
+        <a  class="navigation_item" href="#MetaMask"><img src="assets/logoN.png" alt=""></a>
+        <a  class="navigation_item" href="#LayerZero"><img src="assets/logoO.png" alt=""></a>
+        <a  class="navigation_item" href="#Polygon"><img src="assets/logoPerple.png" alt=""></a>
+        <a  class="navigation_item" href="#starkNet"><img src="assets/logoSp.png" alt=""></a>
+        <a  class="navigation_item" href="#MetaMask"><img src="assets/logoSq.png" alt=""></a>
+        <a  class="navigation_item" href="#MetaMask"><img src="assets/logoV.png" alt=""></a>
+      </div> 
+    </div> 
+    <div>
+  <button class="carousel-control-prev menuButtonL" type="button" data-bs-target="#carouselMenu"  data-bs-slide="prev">
+        <span aria-hidden="true"><img src="assets/arrow_left.png" alt=""></span>
+        <span class="visually-hidden">Предыдущий</span>
+      </button></div>
+    <div>
+      <button class="carousel-control-next menuButtonR" type="button" data-bs-target="#carouselMenu"  data-bs-slide="next">
+        <span aria-hidden="true"><img src="assets/arrow_right.png" alt=""></span>
+        <span class="visually-hidden">Следующий</span></div>
+      </button>
+  </div>
+</div>
+
                 <div class="row row-cols-3 mt-4 cards">
                     <article class="col " id="starkNet">
                         <div class="card card__company">
@@ -107,7 +142,7 @@
                                     (often referred to as ZK-Rollup). It operates as a Layer 2 network over
                                     Ethereum.</p>
                                     <div class="mb-2 mt-4">
-                                <a href="#">Read more</a>
+                                <a href="#MetaMask">Read more</a>
                             </div>
                                 <div class="card card__details">
                                     <div class="card-body">
@@ -166,25 +201,23 @@
                                         </tr>
                                     </tbody>
                                 </table>
-                                <button href="#" type="button" class="btn btn-primary btn-block card__button">Buy</button>
+                                <button href="#MetaMask" type="button" class="btn btn-primary btn-block card__button">Buy</button>
                                 <p class="card-text">
                                     <small class="text-muted  ">Chose a suitable tarif and click the button</small>
                                 </p>
                             </div>
                         </div>
                     </article>
-                    <article class="col ">
+                    <article class="col " id="Polygon">
                         <div class="card card__company">
                             <div class="card-body">
                                 <div class="card-body__header d-flex align-items-center">
-                                    <img src="assets/logoSp.png" alt="logo">
-                                    <h5 class="card-title flex-grow-1 ms-2">StarkNet</h5>
+                                    <img src="assets/logoPerple.png" alt="logo">
+                                    <h5 class="card-title flex-grow-1 ms-2">Polygon zkEVM</h5>
                                 </div>
-                                <p class="card-text text-muted">Starknet is a decentralized Validity-Rollup
-                                    (often referred to as ZK-Rollup). It operates as a Layer 2 network over
-                                    Ethereum.</p>
+                                <p class="card-text text-muted">Polygon zkEVM Beta is the leading ZK scaling solution that is equivalent to Ethereum Virtual Machine.</p>
                                     <div class="mb-2 mt-4">
-                                <a href="#">Read more</a>
+                                <a href="#MetaMask">Read more</a>
                             </div>
                                 <div class="card card__details">
                                     <div class="card-body">
@@ -243,25 +276,23 @@
                                         </tr>
                                     </tbody>
                                 </table>
-                                <button href="#" type="button" class="btn btn-primary btn-block card__button">Buy</button>
+                                <button href="#MetaMask" type="button" class="btn btn-primary btn-block card__button">Buy</button>
                                 <p class="card-text">
                                     <small class="text-muted  ">Chose a suitable tarif and click the button</small>
                                 </p>
                             </div>
                         </div>
                     </article>
-                    <article class="col ">
+                    <article class="col "  id="LayerZero">
                         <div class="card card__company">
                             <div class="card-body">
                                 <div class="card-body__header d-flex align-items-center">
-                                    <img src="assets/logoSp.png" alt="logo">
-                                    <h5 class="card-title flex-grow-1 ms-2">StarkNet</h5>
+                                    <img src="assets/logoO.png" alt="logo">
+                                    <h5 class="card-title flex-grow-1 ms-2">LayerZero</h5>
                                 </div>
-                                <p class="card-text text-muted">Starknet is a decentralized Validity-Rollup
-                                    (often referred to as ZK-Rollup). It operates as a Layer 2 network over
-                                    Ethereum.</p>
+                                <p class="card-text text-muted">LayerZero is an Omnichain communication protocol designed to simplify message passing across chains.</p>
                                     <div class="mb-2 mt-4">
-                                <a href="#">Read more</a>
+                                <a href="#MetaMask">Read more</a>
                             </div>
                                 <div class="card card__details">
                                     <div class="card-body">
@@ -320,25 +351,23 @@
                                         </tr>
                                     </tbody>
                                 </table>
-                                <button href="#" type="button" class="btn btn-primary btn-block card__button">Buy</button>
+                                <button href="#MetaMask" type="button" class="btn btn-primary btn-block card__button">Buy</button>
                                 <p class="card-text">
                                     <small class="text-muted  ">Chose a suitable tarif and click the button</small>
                                 </p>
                             </div>
                         </div>
                     </article>
-                    <article class="col ">
+                    <article class="col " id="MetaMask">
                         <div class="card card__company">
                             <div class="card-body">
                                 <div class="card-body__header d-flex align-items-center">
-                                    <img src="assets/logoSp.png" alt="logo">
-                                    <h5 class="card-title flex-grow-1 ms-2">StarkNet</h5>
+                                    <img src="assets/logoFox.png" alt="logo">
+                                    <h5 class="card-title flex-grow-1 ms-2">MetaMask</h5>
                                 </div>
-                                <p class="card-text text-muted">Starknet is a decentralized Validity-Rollup
-                                    (often referred to as ZK-Rollup). It operates as a Layer 2 network over
-                                    Ethereum.</p>
+                                <p class="card-text text-muted">Is a non-custodial crypto wallet that allow you receive, store and send cryptocurrency asset.</p>
                                     <div class="mb-2 mt-4">
-                                <a href="#">Read more</a>
+                                <a href="#MetaMask">Read more</a>
                             </div>
                                 <div class="card card__details">
                                     <div class="card-body">
@@ -397,7 +426,7 @@
                                         </tr>
                                     </tbody>
                                 </table>
-                                <button href="#" type="button" class="btn btn-primary btn-block card__button">Buy</button>
+                                <button href="#MetaMask" type="button" class="btn btn-primary btn-block card__button">Buy</button>
                                 <p class="card-text">
                                     <small class="text-muted  ">Chose a suitable tarif and click the button</small>
                                 </p>
@@ -405,29 +434,9 @@
                         </div>
                     </article>
                 </div>
-                <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="true" data-bs-interval="false">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="assets/logoB.png"  alt="...">
-                      </div>
-                      <div class="carousel-item  active">
-                        <img src="assets/logoB.png" class="d-block" alt="...">
-                      </div>
-                      <div class="carousel-item  active" >
-                        <img src="assets/logoB.png" class="d-block" alt="...">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Предыдущий</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Следующий</span>
-                    </button>
-                  </div>
             </main>
         </div>
+        
 
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
@@ -437,6 +446,9 @@
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
             integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
             crossorigin="anonymous"></script>
+            <script
+            src="index.js"
+        ></script>
 
     </body>
 
